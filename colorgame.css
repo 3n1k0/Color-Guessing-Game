@@ -1,0 +1,81 @@
+body {
+  background-color: #232323;
+  margin: 0 0 0 0;
+}
+
+.square {
+  width: 30%;
+  background-color: purple;
+  padding-bottom: 30%;
+  float: left;
+  margin: 1.66%;
+  border-radius: 10%;
+}
+
+#container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  background-color: rgb(98, 169, 193);
+  height: 150px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-transform: uppercase ;
+}
+
+
+#stripe { 
+  background-color: white;
+  height: 30px;
+  text-align: center;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  align-content: center;
+}
+
+.selected {
+  background-color: rgb(98, 169, 193);
+}
+
+button {
+  background-color: white;
+  border: none;
+  text-transform: uppercase;
+  height: 100%;
+  outline: none;
+}
+
+button:hover {
+  background-color: rgb(98, 169, 193);
+
+}
+
+#colorDisplay {
+letter-spacing: 2px;
+font-size: 150%;
+
+}
+
+#middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#first { 
+  padding-left: 500px;
+}
+
+#buttons {
+  padding-right: 500px;
+
+}
